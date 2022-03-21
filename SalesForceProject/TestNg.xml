@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+
+<listeners>
+<listener class-name="com.training.listeners.TestListener"></listener>
+</listeners>
+<test name="login">
+
+<classes>
+<class name="SFDClogin.LoginErrorMessage1"/>
+<class name="SFDClogin.LoginToSalesForce2"/>
+<class name="SFDClogin.CheckRememberMe3"/>
+<class name="SFDClogin.ForgotPassWord4A"/>
+<class name="SFDClogin.ForgotPassWord4B"/>
+</classes>
+</test>
+
+
+</suite> 
